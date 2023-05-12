@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .redes-sociales {
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .homeContent {
+    padding: 40px;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .homeContent header h1 {
+    font-size: 30px;
+  }
+  .escritor {
+    margin-bottom: 10px;
+  }
+  .book-img {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+}

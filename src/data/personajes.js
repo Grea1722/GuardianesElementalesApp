@@ -1,0 +1,41 @@
+export const personajes = [
+  {
+    id: "1",
+    nombre: "Namah",
+    edad: "000",
+    raza: "Demonios",
+    info: "Demonio jerarca de gran belleza y poder que tiene la habilidad de controlar a los mortales que caen en sus encanto. Posee una corona de pétalos de rosas negras. Los pétalos los usa para protegerse como para atacar, armas letales que usa para exterminar a sus adversarios. Tendrá su aparición en la segunda entrega de la saga Guardianes Elementales, En Ojos Índigo, siendo un poderoso enemigo a vencer de Gael y Dagon.",
+  },
+  {
+    id: "2",
+    nombre: "Kalista",
+    edad: "00",
+    raza: "Humanos",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet varius odio vel posuere. Vivamus interdum risus vitae diam volutpat suscipit. Maecenas ac magna vel lorem consequat ornare. Integer non ante tincidunt, bibendum velit vel, rhoncus sem",
+    habilidades: "#1,#2,#3",
+  },
+  {
+    id: "3",
+    nombre: "Shyvana",
+    edad: "00",
+    raza: "Elementales",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet varius odio vel posuere. Vivamus interdum risus vitae diam volutpat suscipit. Maecenas ac magna vel lorem consequat ornare. Integer non ante tincidunt, bibendum velit vel, rhoncus sem",
+    habilidades: "#1,#2,#3",
+  },
+  {
+    id: "4",
+    nombre: "Dagon",
+    edad: "00",
+    raza: "Elementales",
+    info: "Salamandrina Elemental de fuego de 17 mil años de antigüedad, y que pertenece a la guardia Elite. Posee una gran cantidad de esencia, y conoce las artes secretas del fuego, conocimiento que le permite crear técnicas muy peligrosas. Es muy orgulloso y desconfía de los seres humanos ya que ha visto como han destruido la naturaleza. Al llegar a la tierra crea enlace con Gael, despertando un poder que ambos no sabían que poseían",
+    habilidades: "#1,#2,#3",
+  },
+  {
+    id: "5",
+    nombre: "Gael",
+    edad: "00",
+    raza: "Humanos",
+    info: "Chico de 17 años, despistado y un tanto soñador que posee un poder especial y que los demonios buscan reclutar ya que es parte de un plan ancestral para derrotar a Dios. Al verse en problemas invoca a Dagon, un elemental de fuego con el que crea un enlace para buscar la forma de detener el plan de los emonios.",
+    habilidades: "#1,#2,#3",
+  },
+];

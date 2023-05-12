@@ -1,0 +1,125 @@
+:root {
+  font-family: "Lora", serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  background-image: url("./assets/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar {
+  background: rgba(13, 6, 9, 0.75);
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgb(34, 33, 34);
+  border-radius: 1px;
+}
+
+.sidebar .links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 10vh;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: #ccc;
+  margin: 20px -20px;
+  width: 200px;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.back {
+  width: calc(100% - 200px);
+  height: 100vh;
+  margin-left: 200px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-sizing: border-box;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.showSidebarBtn {
+  display: none;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .showSidebarBtn {
+    width: 3em;
+    height: 3em;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 10px 15px;
+    z-index: 999;
+  }
+  .showSidebarBtn img {
+    width: 100%;
+  }
+  .back {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0px;
+    padding-bottom: 20px;
+  }
+  .sidebar {
+    background: rgba(13, 6, 9, 0.75);
+    width: 60%;
+    height: 100%;
+    z-index: 20;
+    padding: 0;
+  }
+  hr {
+    width: calc(100% + 40px);
+  }
+  .sidebar a {
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .sidebar a:hover {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+  }
+
+  a img {
+    width: 35px;
+    margin-right: 20px;
+  }
+}

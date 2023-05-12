@@ -1,0 +1,215 @@
+.card {
+  width: 150px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+  margin: 10px 5px;
+
+  animation-duration: 4s;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card .content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.821);
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px auto;
+  gap: 2rem;
+}
+
+.search {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.search input {
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.search-container img {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+::placeholder {
+  color: #e4dfdf;
+}
+
+.search input,
+select {
+  background-color: #0c03034b;
+  border-radius: 5px;
+  height: 30px;
+  color: #e4dfdf;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid white;
+}
+.search-container {
+  position: relative;
+}
+
+select option {
+  background-color: #bf2e1e9e;
+}
+
+.personajeList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  gap: 10px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.cards h2 {
+  text-align: center;
+}
+.character-page {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+
+.backButton {
+  width: 100%;
+  height: 7vh;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.backButton button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 90%;
+}
+.character-page button img {
+  width: 20px;
+}
+
+.character-page button:hover {
+  cursor: pointer;
+}
+
+.characterContent {
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.personajeInfo {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  align-self: center;
+}
+
+.personajeInfo .raza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personajeInfo .raza img {
+  width: 120px;
+  border-radius: 100px;
+}
+
+.personajeInfo h4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.blurCharacter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-sizing: border-box;
+}
+
+.imagenCharacter {
+  width: 30%;
+  max-height: 80%;
+  align-self: center;
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+
+.imagenCharacter img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.702);
+  max-height: 100%;
+  object-fit: fill;
+}
