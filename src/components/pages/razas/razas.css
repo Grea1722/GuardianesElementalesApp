@@ -33,3 +33,12 @@ main.razas {
   justify-content: space-between;
   box-sizing: border-box;
 }
+
+.razas h2.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.46);
+  font-size: 30px;
+}

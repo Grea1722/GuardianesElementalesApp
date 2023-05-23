@@ -74,7 +74,7 @@ button:hover {
   display: none;
 }
 
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 768px) {
   .showSidebarBtn {
     width: 3em;
     height: 3em;
@@ -84,21 +84,19 @@ button:hover {
     margin: 10px 15px;
     z-index: 999;
   }
+
   .showSidebarBtn img {
     width: 100%;
   }
+
   .back {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin-left: 0px;
     padding-bottom: 20px;
   }
   .sidebar {
-    background: rgba(13, 6, 9, 0.75);
-    width: 60%;
-    height: 100%;
     z-index: 20;
-    padding: 0;
   }
   hr {
     width: calc(100% + 40px);
@@ -123,3 +121,12 @@ button:hover {
     margin-right: 20px;
   }
 }
+
+/* @media screen and (max-width: 480px) and (orientation: portrait) {
+  .sidebar {
+    background: rgba(13, 6, 9, 0.75);
+    width: 60%;
+    height: 100%;
+    padding: 0;
+  }
+} */

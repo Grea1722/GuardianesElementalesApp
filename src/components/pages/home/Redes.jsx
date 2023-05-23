@@ -13,15 +13,12 @@ export const Redes = () => {
     <div className="redes-sociales">
       <a href={links.facebook} className="red" target="_blank">
         <img src={Facebook} alt="Facebook button" />
-        <p>Facebook</p>
       </a>
       <a href={links.ig} className="red" target="_blank">
         <img src={Instagram} alt="Instagram button" />
-        <p>Instagram</p>
       </a>
       <a href={links.TikTok} className="red" target="_blank">
         <img src={TikTok} alt="Tiktok button" />
-        <p>Tik Tok</p>
       </a>
     </div>
   );

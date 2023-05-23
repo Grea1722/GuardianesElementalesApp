@@ -33,7 +33,7 @@ export const PersonajesList = () => {
   };
 
   return (
-    <div className="personajeList animate__animated  animate__fadeInLeft">
+    <div className="personajeList">
       <div className="search">
         <label className="search-container">
           <input
@@ -55,7 +55,7 @@ export const PersonajesList = () => {
           ))}
         </select>
       </div>
-      <div className="cards ">
+      <div className="cards animate__animated  animate__fadeInLeft ">
         <h2>Personajes</h2>
         <div className="cardContainer">
           {filteredCharacters &&

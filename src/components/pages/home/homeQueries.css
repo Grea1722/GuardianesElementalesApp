@@ -1,15 +1,40 @@
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 992px) {
+  main p {
+    font-size: 15px;
+  }
+  .escritor h2 {
+    margin-right: 20px;
+    margin: 0 10px 0 0;
+    font-size: 24px;
+  }
+  .escritor h3 {
+    padding: 0;
+    margin: 0;
+    color: crimson;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .redes-sociales {
     justify-content: center;
     padding-right: 0px;
   }
+  .left-section {
+    width: 80%;
+  }
+
+  .home {
+    overflow: auto;
+    box-sizing: border-box;
+  }
   .homeContent {
-    padding: 40px;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 80vw;
-    height: 80vh;
+    padding: 20px;
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
   }
   .homeContent header h1 {
     font-size: 30px;
@@ -18,15 +43,40 @@
     margin-bottom: 10px;
   }
   .book-img {
-    width: 100vw;
+    width: 100%;
   }
 }
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .homeContent header h1 {
+    font-size: 24px;
+  }
+  .red {
+    margin-right: 20px;
+    width: 40px;
+    display: inline-block;
+  }
 
-@media screen and (max-width: 768px) and (orientation: portrait) {
+  main p {
+    font-size: 10px;
+  }
+  .left-section {
+    width: 100%;
+  }
+  .homeTitle {
+    font-size: 10px;
+    background-color: red;
+  }
+  .escritor h2 {
+    margin-right: 20px;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+  }
+  .escritor h3 {
+    padding: 0;
+    margin: 0;
+    color: crimson;
+    font-size: 14px;
+  }
 }
-
-@media screen and (max-width: 992px) and (orientation: portrait) {
-}
-
 @media screen and (max-width: 1200px) and (orientation: portrait) {
 }
