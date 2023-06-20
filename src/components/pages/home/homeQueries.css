@@ -13,6 +13,11 @@
     color: crimson;
     font-size: 18px;
   }
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -46,6 +51,7 @@
     width: 100%;
   }
 }
+
 @media screen and (max-width: 480px) and (orientation: portrait) {
   .homeContent header h1 {
     font-size: 24px;
@@ -78,5 +84,5 @@
     font-size: 14px;
   }
 }
-@media screen and (max-width: 1200px) and (orientation: portrait) {
+@media screen and (max-width: 1300px) and (orientation: portrait) {
 }

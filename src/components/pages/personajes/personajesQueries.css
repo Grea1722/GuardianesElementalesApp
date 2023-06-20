@@ -1,22 +1,14 @@
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 1450px) {
   .imagenCharacter {
     align-self: auto;
-    width: 80%;
+    width: 50%;
   }
   .personajeInfo {
-    width: 80%;
+    width: 40%;
     margin-top: 5vh;
   }
-  h3,
-  h4 {
-    font-size: 15px;
-  }
-
-  .personajeInfo p {
-    font-size: 12px;
-  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .characterContent {
     height: calc(100vh - 10vh);
     flex-direction: column;
@@ -59,10 +51,42 @@
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.702);
   }
+}
 
+@media screen and (max-width: 768px) {
   .search input {
     width: 150px;
     margin-right: 0px;
     padding-left: 0px;
+  }
+  .backButton {
+    height: 7vh;
+  }
+
+  .backButton button {
+    width: 90px;
+    height: 80%;
+  }
+
+  .character-page button img {
+    width: 15px;
+  }
+}
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .imagenCharacter {
+    align-self: auto;
+    width: 90%;
+  }
+  .personajeInfo {
+    width: 90%;
+    margin-top: 5vh;
+  }
+  h3,
+  h4 {
+    font-size: 15px;
+  }
+
+  .personajeInfo p {
+    font-size: 12px;
   }
 }

@@ -1,20 +1,53 @@
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 992px) {
   .razaCard {
     width: 80%;
-    height: auto;
+    margin-bottom: 20px;
+  }
+  main.razas {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .razaCard {
+    width: 45%;
+    display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .razaCard .texto {
+    width: 100%;
+    position: relative;
+    background: none;
+    padding: 10px;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    text-align: center;
+    right: 0;
+  }
+  .razaCard img {
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  main.razas {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .razaCard {
+    width: 100%;
     margin-bottom: 20px;
   }
   .razaCard .texto {
     width: 80%;
-    margin: 10px 0;
   }
-
   main.razas {
-    height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    overflow: auto;
+    padding: 20px;
   }
 }

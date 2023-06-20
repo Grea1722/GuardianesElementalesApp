@@ -18,7 +18,7 @@ export const Comprar = () => {
     window.open(url, "_blank");
   };
   return (
-    <div className="back ">
+    <div className="back">
       <main className="tiendas animate__animated animate__fadeInUp">
         <select name="paises" value={paisSeleccionado} onChange={onSelect}>
           <option value="" key="1">
