@@ -74,6 +74,13 @@ button:hover {
   display: none;
 }
 
+@media screen and (min-width: 769px) {
+  .sidebar {
+    animation: fadeInLeft;
+    animation-duration: 1s;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .showSidebarBtn {
     width: 3em;
