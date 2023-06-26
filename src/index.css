@@ -26,6 +26,11 @@
   border-radius: 1px;
 }
 
+.sidebar h2 {
+  text-align: center;
+  -webkit-text-stroke: 2px rgba(140, 20, 20, 0.461);
+}
+
 .sidebar .links {
   display: flex;
   flex-direction: column;

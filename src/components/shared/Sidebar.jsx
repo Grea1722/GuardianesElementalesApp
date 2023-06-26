@@ -23,7 +23,7 @@ export const Sidebar = () => {
             : "animate__animated animate__fadeOutLeft"
         } `}
       >
-        <h2>GE</h2>
+        <h2>Guardianes Elementales</h2>
         <hr />
         <div className="links">
           <Link to="/" rel="Enlace homepage">
